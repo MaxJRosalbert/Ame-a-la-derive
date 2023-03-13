@@ -206,7 +206,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 258730956}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 293017971}
+        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
+        m_MethodName: SceneOption
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &258730956
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -254,6 +266,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 293017970}
+  - component: {fileID: 293017971}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -276,6 +289,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &293017971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 293017969}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a6e8ae41694c334d93be02f116bbe7e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &364944729
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1061,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1488957157}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 293017971}
+        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
+        m_MethodName: SceneCredit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1488957157
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1158,7 +1195,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1665312010}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 293017971}
+        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
+        m_MethodName: SceneChoixNiv
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1665312010
 MonoBehaviour:
   m_ObjectHideFlags: 0
