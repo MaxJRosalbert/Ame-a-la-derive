@@ -25,4 +25,28 @@ public class ChangementScene : MonoBehaviour
         SceneManager.LoadScene("Credit");
     }
 
+    public void Niveau1()
+    {
+        SceneManager.LoadScene("niv-1");
+    }
+
+    public void Niveau2()
+    {
+        SceneManager.LoadScene("niv-2");
+    }
+
+    public void Niveau3()
+    {
+        SceneManager.LoadScene("niv-3");
+    }
+
+    public void Niveau4()
+    {
+        SceneManager.LoadScene("niv-4");
+    }
+
+    public void Niveau5()
+    {
+        SceneManager.LoadScene("niv-5");
+    }
 }
