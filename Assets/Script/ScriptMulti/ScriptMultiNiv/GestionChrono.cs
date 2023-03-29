@@ -7,5 +7,10 @@ using UnityEngine.UI;
 public class GestionChrono : MonoBehaviour
 {
 
+
+    public void PauseChrono()
+    {
+
+    }
 }
 
