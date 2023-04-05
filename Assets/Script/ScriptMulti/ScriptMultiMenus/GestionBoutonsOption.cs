@@ -4,50 +4,68 @@ using UnityEngine;
 
 public class GestionBoutonsOption : MonoBehaviour
 {
-    public GameObject[] objetADisparaitreDroite;
-    public GameObject[] objetAApparaitreDroite;
+    public GameObject[] objetADisparaitreReglage;
+    public GameObject[] objetAApparaitreReglage;
 
-    public GameObject[] objetADisparaitreGauche;
-    public GameObject[] objetAApparaitreGauche;
+    public GameObject[] objetADisparaitreControle;
+    public GameObject[] objetAApparaitreControle;
 
-    public GameObject[] objetAApparaitreBtn1;
-    public GameObject[] objetADisparaitreBtn1;
+    public GameObject[] objetADisparaitreHistoire;
+    public GameObject[] objetAApparaitreHistoire;
 
-    public GameObject[] objetAApparaitreBtn2;
-    public GameObject[] objetADisparaitreBtn2;
+    public GameObject[] objetAApparaitreNiv1;
+    public GameObject[] objetADisparaitreNiv1;
 
-    public GameObject[] objetAApparaitreBtn3;
-    public GameObject[] objetADisparaitreBtn3;
+    public GameObject[] objetAApparaitreNiv2;
+    public GameObject[] objetADisparaitreNiv2;
+
+    public GameObject[] objetAApparaitreNiv3;
+    public GameObject[] objetADisparaitreNiv3;
     
-    public GameObject[] objetAApparaitreBtn4;
-    public GameObject[] objetADisparaitreBtn4;
+    public GameObject[] objetAApparaitreNiv4;
+    public GameObject[] objetADisparaitreNiv4;
     
-    public GameObject[] objetAApparaitreBtn5;
-    public GameObject[] objetADisparaitreBtn5;
+    public GameObject[] objetAApparaitreNiv5;
+    public GameObject[] objetADisparaitreNiv5;
 
     public GameObject[] objetADisparaitreRetour;
+    public GameObject[] objetAApparaitreRetourHistoire;
+    public GameObject[] objetADisparaitreRetourHistoire;
 
-    public void FlecheDroite()
+    public void Reglage()
     {
-        foreach (GameObject Obj in objetADisparaitreDroite)
+        foreach (GameObject Obj in objetADisparaitreReglage)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreDroite)
+        foreach (GameObject Obj in objetAApparaitreReglage)
         {
             Obj.SetActive(true);
         }
     }
 
-    public void FlecheGauche()
+    public void Controle()
     {
-        foreach (GameObject Obj in objetADisparaitreGauche)
+        foreach (GameObject Obj in objetADisparaitreControle)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreGauche)
+        foreach (GameObject Obj in objetAApparaitreControle)
+        {
+            Obj.SetActive(true);
+        }
+    }
+
+    public void Histoire()
+    {
+        foreach (GameObject Obj in objetADisparaitreHistoire)
+        {
+            Obj.SetActive(false);
+        }
+
+        foreach (GameObject Obj in objetAApparaitreHistoire)
         {
             Obj.SetActive(true);
         }
@@ -56,12 +74,12 @@ public class GestionBoutonsOption : MonoBehaviour
 
     public void Niv1()
     {
-        foreach (GameObject Obj in objetADisparaitreBtn1)
+        foreach (GameObject Obj in objetAApparaitreNiv1)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreBtn1)
+        foreach (GameObject Obj in objetADisparaitreNiv1)
         {
             Obj.SetActive(true);
         }
@@ -69,12 +87,12 @@ public class GestionBoutonsOption : MonoBehaviour
 
     public void Niv2()
     {
-        foreach (GameObject Obj in objetADisparaitreBtn2)
+        foreach (GameObject Obj in objetAApparaitreNiv2)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreBtn2)
+        foreach (GameObject Obj in objetADisparaitreNiv2)
         {
             Obj.SetActive(true);
         }
@@ -82,12 +100,12 @@ public class GestionBoutonsOption : MonoBehaviour
 
     public void Niv3()
     {
-        foreach (GameObject Obj in objetADisparaitreBtn3)
+        foreach (GameObject Obj in objetAApparaitreNiv3)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreBtn3)
+        foreach (GameObject Obj in objetADisparaitreNiv3)
         {
             Obj.SetActive(true);
         }
@@ -95,12 +113,12 @@ public class GestionBoutonsOption : MonoBehaviour
 
     public void Niv4()
     {
-        foreach (GameObject Obj in objetADisparaitreBtn4)
+        foreach (GameObject Obj in objetAApparaitreNiv4)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreBtn4)
+        foreach (GameObject Obj in objetADisparaitreNiv4)
         {
             Obj.SetActive(true);
         }
@@ -108,12 +126,12 @@ public class GestionBoutonsOption : MonoBehaviour
 
     public void Niv5()
     {
-        foreach (GameObject Obj in objetADisparaitreBtn5)
+        foreach (GameObject Obj in objetAApparaitreNiv5)
         {
             Obj.SetActive(false);
         }
 
-        foreach (GameObject Obj in objetAApparaitreBtn5)
+        foreach (GameObject Obj in objetADisparaitreNiv5)
         {
             Obj.SetActive(true);
         }
@@ -122,6 +140,19 @@ public class GestionBoutonsOption : MonoBehaviour
     public void Retour()
     {
         foreach (GameObject Obj in objetADisparaitreRetour)
+        {
+            Obj.SetActive(false);
+        }
+    }
+
+    public void RetourHistoire()
+    {
+        foreach (GameObject Obj in objetAApparaitreRetourHistoire)
+        {
+            Obj.SetActive(true);
+        }
+
+        foreach (GameObject Obj in objetADisparaitreRetourHistoire)
         {
             Obj.SetActive(false);
         }
