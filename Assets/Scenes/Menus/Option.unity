@@ -2586,9 +2586,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015715305}
-        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
-        m_MethodName: Niveau5
+      - m_Target: {fileID: 2015715307}
+        m_TargetAssemblyTypeName: GestionBoutonsOption, Assembly-CSharp
+        m_MethodName: Niv5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3528,9 +3528,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015715305}
-        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
-        m_MethodName: Niveau3
+      - m_Target: {fileID: 2015715307}
+        m_TargetAssemblyTypeName: GestionBoutonsOption, Assembly-CSharp
+        m_MethodName: Niv3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4165,6 +4165,13 @@ MonoBehaviour:
   objetAApparaitreHistoire:
   - {fileID: 1786526700}
   - {fileID: 1806569362}
+  - {fileID: 635113546}
+  - {fileID: 1409319772}
+  - {fileID: 1957975051}
+  - {fileID: 432337088}
+  - {fileID: 1761226867}
+  - {fileID: 91207030}
+  - {fileID: 1037583549}
   objetAApparaitreNiv1:
   - {fileID: 1007046393}
   objetADisparaitreNiv1:
@@ -4199,11 +4206,17 @@ MonoBehaviour:
   - {fileID: 1007046393}
   - {fileID: 913233270}
   - {fileID: 203071986}
-  - {fileID: 1827076348}
+  - {fileID: 606531809}
   objetADisparaitreRetour:
   - {fileID: 237133383}
   - {fileID: 1430312390}
   - {fileID: 1786526700}
+  objetAApparaitreRetour: []
+  objetAApparaitreRetourHistoire:
+  - {fileID: 786441198}
+  - {fileID: 71423852}
+  - {fileID: 1223032111}
+  - {fileID: 934156341}
   objetADisparaitreRetourHistoire:
   - {fileID: 635113546}
   - {fileID: 1007046393}
@@ -4211,6 +4224,11 @@ MonoBehaviour:
   - {fileID: 203071986}
   - {fileID: 606531809}
   - {fileID: 1827076348}
+  - {fileID: 1957975051}
+  - {fileID: 432337088}
+  - {fileID: 1761226867}
+  - {fileID: 91207030}
+  - {fileID: 1037583549}
 --- !u!1 &2111695637
 GameObject:
   m_ObjectHideFlags: 0
