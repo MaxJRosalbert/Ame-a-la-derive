@@ -1403,7 +1403,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -150}
+  m_AnchoredPosition: {x: 300, y: -140}
   m_SizeDelta: {x: 125, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571099825
@@ -4050,41 +4050,43 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb400db1adb80dd49a7f565b2e4e7ec0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objetADisparaitreDroite: []
-  objetAApparaitreDroite: []
-  objetADisparaitreGauche: []
-  objetAApparaitreGauche: []
-  objetAApparaitreBtn1:
+  objetADisparaitreReglage: []
+  objetAApparaitreReglage: []
+  objetADisparaitreControle: []
+  objetAApparaitreControle: []
+  objetADisparaitreHistoire: []
+  objetAApparaitreHistoire: []
+  objetAApparaitreNiv1:
   - {fileID: 2070175019}
-  objetADisparaitreBtn1:
+  objetADisparaitreNiv1:
   - {fileID: 548748028}
   - {fileID: 1352289650}
   - {fileID: 432530796}
   - {fileID: 406487981}
-  objetAApparaitreBtn2:
+  objetAApparaitreNiv2:
   - {fileID: 548748028}
-  objetADisparaitreBtn2:
+  objetADisparaitreNiv2:
   - {fileID: 2070175019}
   - {fileID: 1352289650}
   - {fileID: 432530796}
   - {fileID: 406487981}
-  objetAApparaitreBtn3:
+  objetAApparaitreNiv3:
   - {fileID: 1352289650}
-  objetADisparaitreBtn3:
+  objetADisparaitreNiv3:
   - {fileID: 2070175019}
   - {fileID: 548748028}
   - {fileID: 432530796}
   - {fileID: 406487981}
-  objetAApparaitreBtn4:
+  objetAApparaitreNiv4:
   - {fileID: 432530796}
-  objetADisparaitreBtn4:
+  objetADisparaitreNiv4:
   - {fileID: 2070175019}
   - {fileID: 548748028}
   - {fileID: 1352289650}
   - {fileID: 406487981}
-  objetAApparaitreBtn5:
+  objetAApparaitreNiv5:
   - {fileID: 406487981}
-  objetADisparaitreBtn5:
+  objetADisparaitreNiv5:
   - {fileID: 2070175019}
   - {fileID: 548748028}
   - {fileID: 1352289650}
@@ -4095,6 +4097,9 @@ MonoBehaviour:
   - {fileID: 1352289650}
   - {fileID: 432530796}
   - {fileID: 406487981}
+  objetAApparaitreRetour: []
+  objetAApparaitreRetourHistoire: []
+  objetADisparaitreRetourHistoire: []
 --- !u!1 &1584793975
 GameObject:
   m_ObjectHideFlags: 0
