@@ -174,7 +174,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.23137254, g: 0.82891196, b: 1, a: 1}
+  m_Color: {r: 0.23137254, g: 1, b: 0.6948537, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2586,9 +2586,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015715305}
-        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
-        m_MethodName: Niveau5
+      - m_Target: {fileID: 2015715307}
+        m_TargetAssemblyTypeName: GestionBoutonsOption, Assembly-CSharp
+        m_MethodName: Niv5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3528,9 +3528,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2015715305}
-        m_TargetAssemblyTypeName: ChangementScene, Assembly-CSharp
-        m_MethodName: Niveau3
+      - m_Target: {fileID: 2015715307}
+        m_TargetAssemblyTypeName: GestionBoutonsOption, Assembly-CSharp
+        m_MethodName: Niv3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4162,9 +4162,15 @@ MonoBehaviour:
   objetADisparaitreHistoire:
   - {fileID: 237133383}
   - {fileID: 1430312390}
+  - {fileID: 1007046393}
+  - {fileID: 913233270}
+  - {fileID: 203071986}
+  - {fileID: 606531809}
+  - {fileID: 1827076348}
+  - {fileID: 1806569362}
   objetAApparaitreHistoire:
   - {fileID: 1786526700}
-  - {fileID: 1806569362}
+  - {fileID: 635113546}
   objetAApparaitreNiv1:
   - {fileID: 1007046393}
   objetADisparaitreNiv1:
@@ -4204,6 +4210,9 @@ MonoBehaviour:
   - {fileID: 237133383}
   - {fileID: 1430312390}
   - {fileID: 1786526700}
+  objetAApparaitreRetourHistoire:
+  - {fileID: 1786526700}
+  - {fileID: 1806569362}
   objetADisparaitreRetourHistoire:
   - {fileID: 635113546}
   - {fileID: 1007046393}
