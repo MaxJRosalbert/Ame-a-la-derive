@@ -28,6 +28,7 @@ public class GestionCredit : MonoBehaviour
         {
             GetComponent<Animator>().SetTrigger("FinVideo");
             Invoke("RetourIntro", 1);
+            
         }
 
     }
@@ -46,6 +47,7 @@ public class GestionCredit : MonoBehaviour
         if (compteur == 0)
         {
             Invoke("RetourIntro", 1);
+            compteur = 60;
         }
 
     }
@@ -53,5 +55,6 @@ public class GestionCredit : MonoBehaviour
     void RetourIntro()
     {
         SceneManager.LoadScene("Intro");
+        compteur = 60;
     }
 }
