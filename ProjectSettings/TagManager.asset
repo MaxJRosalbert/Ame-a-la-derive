@@ -11,6 +11,8 @@ TagManager:
   - railBase
   - zoneFin
   - Maison
+  - Soundtrack
+  - sfx
   layers:
   - Default
   - TransparentFX
