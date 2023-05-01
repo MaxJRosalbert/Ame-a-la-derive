@@ -12,7 +12,7 @@ public class ChangementScene : MonoBehaviour
 
     public void SceneChoixNiv()
     {
-        SceneManager.LoadScene("choix-Niv");
+        SceneManager.LoadScene("Choix-Niv");
     }
 
     public void SceneOption()
@@ -27,26 +27,31 @@ public class ChangementScene : MonoBehaviour
 
     public void Niveau1()
     {
-        SceneManager.LoadScene("niv-1");
+        SceneManager.LoadScene("niveau-1");
     }
 
     public void Niveau2()
     {
-        SceneManager.LoadScene("niv-2");
+        SceneManager.LoadScene("niveau-2");
     }
 
     public void Niveau3()
     {
-        SceneManager.LoadScene("niv-3");
+        SceneManager.LoadScene("niveau-3");
     }
 
-    public void Niveau4()
+    public void Niveau4Proto()
     {
-        SceneManager.LoadScene("niv-4");
+        SceneManager.LoadScene("niveau-4-proto");
+    }
+
+    public void Niveau4Final()
+    {
+        SceneManager.LoadScene("Niveau-4-final");
     }
 
     public void Niveau5()
     {
-        SceneManager.LoadScene("niv-5");
+        SceneManager.LoadScene("niveau-5");
     }
 }

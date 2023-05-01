@@ -8,6 +8,7 @@ public class GestionVie : MonoBehaviour
     public GameObject flamme2;
     public GameObject flamme3;
     public float vie = 3;
+    public GameObject Perso;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,7 +31,7 @@ public class GestionVie : MonoBehaviour
             vie--;
         }
 
-        if (Input.GetKeyDown(KeyCode.W))
+        if (Input.GetKeyDown(KeyCode.E))
         {
             Invoke("Gagnevie", 0f);
             vie++;
@@ -142,4 +143,6 @@ public class GestionVie : MonoBehaviour
         flamme3.GetComponent<Animator>().SetBool("FlammeAllumee", true);
         flamme3.GetComponent<Animator>().SetBool("FlammeMorte", false);
     }
+
+    
 }

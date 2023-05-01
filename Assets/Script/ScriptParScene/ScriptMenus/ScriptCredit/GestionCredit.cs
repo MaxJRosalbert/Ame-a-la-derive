@@ -53,5 +53,7 @@ public class GestionCredit : MonoBehaviour
     void RetourIntro()
     {
         SceneManager.LoadScene("Intro");
+        compteur = 60;
+        print(compteur);
     }
 }

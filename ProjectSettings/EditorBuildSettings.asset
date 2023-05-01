@@ -4,5 +4,41 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Cinematiques/cinematique-1.unity
+    guid: 69ba60ddcbc814e47b6f8b88d0df4169
+  - enabled: 1
+    path: Assets/Scenes/Cinematiques/cinematique-2.unity
+    guid: 1538be795f1d92a419aafcae96c9420d
+  - enabled: 1
+    path: Assets/Scenes/Cinematiques/cinematique-3.unity
+    guid: 44fe6b03d8c988f46a5c44a90ea04546
+  - enabled: 1
+    path: Assets/Scenes/Menus/Intro.unity
+    guid: 98f3ff2266c423045be7ac76283442af
+  - enabled: 1
+    path: Assets/Scenes/Menus/Credit.unity
+    guid: 751a7bc4712b81b4981e053979f44af5
+  - enabled: 1
+    path: Assets/Scenes/Menus/Option.unity
+    guid: c817a5fa2142934419c192c6591a5557
+  - enabled: 1
+    path: Assets/Scenes/Menus/Choix-Niv.unity
+    guid: 3fe8a66067bb43e4bb3718f4900b4b0c
+  - enabled: 1
+    path: Assets/Scenes/NivJeux/niveau-1.unity
+    guid: 4130eef194afb5e4aba493b4152df86f
+  - enabled: 1
+    path: Assets/Scenes/NivJeux/niveau-2.unity
+    guid: 44465f2dacc31314989266a1f79bbfca
+  - enabled: 1
+    path: Assets/Scenes/NivJeux/niveau-3.unity
+    guid: db291413a24c5074d86f0fdf5af53fdf
+  - enabled: 1
+    path: Assets/Scenes/NivJeux/Niveau-4-final.unity
+    guid: b79ee87ffb9005a4c9485fc598cefaa4
+  - enabled: 1
+    path: Assets/Scenes/NivJeux/niveau-5.unity
+    guid: 5b451893cb6942e4aa0844e1d3245a5e
   m_configObjects: {}
