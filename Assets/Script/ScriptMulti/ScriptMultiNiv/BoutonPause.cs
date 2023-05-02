@@ -9,7 +9,7 @@ public class BoutonPause : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.P))
         {
-            gameObject.GetComponent<MenuPause>().InterfacePause();
+            //gameObject.GetComponent<MenuPause>().InterfacePause();
             gameObject.GetComponent<GestionChrono>().ChronoPause();
             Cursor.lockState = CursorLockMode.None;
             Cursor.visible = true;
