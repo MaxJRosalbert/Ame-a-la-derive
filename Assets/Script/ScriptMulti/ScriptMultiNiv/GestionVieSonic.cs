@@ -12,6 +12,8 @@ public class GestionVieSonic : MonoBehaviour
     public float boost = 1;
 
     public GameObject flammeP;
+    public GameObject dialogue;
+
 
     public TextMeshProUGUI compteurVie;
 
@@ -39,11 +41,24 @@ public class GestionVieSonic : MonoBehaviour
         }
     }
 
+    void OnCollisionEnter(Collision infoCollision)
+    {
+        // Si le terrain est touché alors active l'animation de l'objet et détruit le
+        if (infoCollision.gameObject.tag == "ennemi")
+        {
+            Invoke("PertePointsVie", 0f);
+            print("vie verdu");
+
+        }
+
+    }
+
     public void PertePointsVie()
     {
         if (viePerso <= vieTotal && viePerso > 0)
         {
             viePerso = viePerso -dommage;
+            dialogue.SetActive(true);
 
             if (viePerso <= 0)
             {

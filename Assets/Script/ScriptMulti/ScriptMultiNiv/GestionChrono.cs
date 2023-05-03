@@ -30,6 +30,8 @@ public class GestionChrono : MonoBehaviour
 
             }
         }
+
+        
     }
 
     IEnumerator ChronoPoint()
@@ -41,7 +43,7 @@ public class GestionChrono : MonoBehaviour
             pointageChrono--;
             yield return new WaitForSeconds(1f);
 
-            print(pointageChrono);
+            //print(pointageChrono);
             //compteurTxT.text = string.Format("{0:0}:{1:00}", Mathf.Floor(compteur / 60), compteur % 60);
         }
 
