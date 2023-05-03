@@ -41,7 +41,7 @@ public class GestionVieSonic : MonoBehaviour
 
     public void PertePointsVie()
     {
-        if (viePerso < vieTotal && viePerso > 0)
+        if (viePerso <= vieTotal && viePerso > 0)
         {
             viePerso = viePerso -dommage;
 
