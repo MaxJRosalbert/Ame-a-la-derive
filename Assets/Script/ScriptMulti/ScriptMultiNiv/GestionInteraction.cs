@@ -15,6 +15,7 @@ public class GestionInteraction : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+<<<<<<< HEAD
         if (Input.GetKeyDown(KeyCode.F))
         {
             if (bulleDialogue1 == false)
@@ -88,4 +89,11 @@ public class GestionInteraction : MonoBehaviour
     {
         dialogue3.SetActive(false);
     }
+=======
+        
+
+    }
+
+
+>>>>>>> f754d5ba98bcdd50b3a625b7c81bac4828ed0a5d
 }
