@@ -147,17 +147,6 @@ public class DeplacementSjelSimple : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter(Collision infoCollision)
-    {
-        // Si le terrain est touché alors active l'animation de l'objet et détruit le
-        if (infoCollision.gameObject.tag == "ennemi")
-        {
-            Invoke("PertePointsVie", 0f);
-            print("vie verdu");
-        }
-
-    }
-
     public void ChargementSceneSelecNiv()
     {
         SceneManager.LoadScene("Choix-Niveaux");
